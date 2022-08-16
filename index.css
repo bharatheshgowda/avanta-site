@@ -1,0 +1,101 @@
+.module-one{
+    background: -webkit-gradient(linear,left top, left bottom,from(rgba(0, 0, 80, 0.5)),to(rgba(0,0,80,0.5))),url(https://www.scfsecurities.com/wp-content/uploads/2013/08/businessman-1.jpg);
+    background: -o-linear-gradient(rgba(0, 0, 80, 0.5),rgba(0,0,80,0.5)),url(https://www.scfsecurities.com/wp-content/uploads/2013/08/businessman-1.jpg);
+    background: linear-gradient(rgba(0, 0, 80, 0.5),rgba(0,0,80,0.5)),url(https://www.scfsecurities.com/wp-content/uploads/2013/08/businessman-1.jpg);
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ }
+ .banner-heading{
+     max-width: 680px;
+     width: 100%;
+     padding-bottom: 20px;
+ }
+ .banner-heading h2{
+     font-size: 60px;
+ line-height: 70px;
+ color: #FBFBFB;
+ font-family: 'Roboto';
+ }
+ .module-one{
+     padding: 206.21px 698px 264px 222px;
+ }
+ .banner-description p{
+ 
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 32px;
+ text-align: left;
+ font-family:'Arimo' ;
+ color: #FBFBFB;
+ }
+ .banner-description{
+     max-width: 525px;
+     margin-bottom: 35px;
+     text-align: left;
+     }
+ .same p{
+     font-size: 16px;
+ line-height: 24px;
+ color: #FBFBFB;
+ 
+ text-align: center;
+ 
+ }
+ .banner-link{
+     position: relative;
+ }
+ .another-link{
+   
+    margin-left: 281px;
+ }
+ .another-link a{
+    color: #FBFBFB;
+    font-size: 16px;
+  
+    font-family: 'Roboto';
+    font-weight: 600;
+    padding: 12px 48px;
+    border-bottom: 2px solid white;
+
+ }
+.banner-contents{
+    max-width: 500px;
+}
+
+/* ###### media @ module-1 ######## */
+
+@media(max-width:767px){
+    .module-one {
+        padding: 30px 160px 41px 19px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        min-height: 750px;
+    }
+.banner-heading h2{
+font-size: 24px;
+line-height: 28px;
+}
+.banner-description p{
+font-weight: 300;
+font-size: 14px;
+line-height: 24px;
+text-align: left;
+}
+.banner-contents{
+    padding-top: 60px;
+}
+.another-link{
+    margin-left: 0px;
+    margin-top: 30px;
+}
+.another-link a{
+    padding: 14px 99px;
+    border-bottom: 2px solid white;
+}
+.another-link a {
+    padding: 14px 0px;
+    border-bottom: 2px solid white;
+}
+}
